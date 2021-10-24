@@ -1,6 +1,5 @@
 ---
 - name: The play name
-  hosts: all
   tasks:
     - name: The task name
       yum:
