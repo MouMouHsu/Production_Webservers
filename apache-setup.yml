@@ -1,5 +1,6 @@
 ---
 - name: The play name
+  hosts: Taipei
   tasks:
     - name: The task name
       yum:
