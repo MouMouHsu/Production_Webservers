@@ -1,0 +1,15 @@
+---
+- name: The play name
+  hosts: Taipei
+  become: true
+  tasks:
+    - name: The task 01 name
+      yum:
+        name: vsftpd
+        state: latest
+        
+    - name: The task 02 name
+      service:
+        name: vsftpd
+        state: started
+        enabled: true
