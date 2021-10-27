@@ -7,4 +7,4 @@
       yum:
         name: httpd
         state: latest
-      when: ansidble_facts['ansible_distribution']=="RedHat" 
+      when: ansidble_facts['ansible_distribution'] == "RedHat" 
