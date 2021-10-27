@@ -1,7 +1,7 @@
 ---
 - name: The play name
   hosts: Taipei
-  gatjer_facts: true
+  gatjer_facts: false
   tasks:
     - name: The task name
       yum:
